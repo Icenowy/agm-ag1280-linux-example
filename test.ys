@@ -1,0 +1,4 @@
+read_verilog test.v
+read_verilog clock_divider.v
+synth_intel -family cycloneive -top test
+write_verilog -attr2comment -defparam test.vqm

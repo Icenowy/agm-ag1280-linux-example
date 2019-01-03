@@ -1,0 +1,6 @@
+*.prg
+*.svf
+*.tx
+routed.v
+test.vqm
+alta_db/
